@@ -2,6 +2,19 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function UserList() {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get('https://jsonplaceholder.typicode.com/users')
+      .then(response => {
+        setUsers(response.data);
+      })
+      .catch(error => {
+        console.error('Error fetching user data:', error);
+      });
+  }, []);
+
   return (
     <div>
       <h1>User Data</h1>
@@ -14,6 +27,7 @@ function UserList() {
           </tr>
         </thead>
         <tbody>
+        
         </tbody>
       </table>
     </div>
