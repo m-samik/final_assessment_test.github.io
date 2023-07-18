@@ -19,7 +19,7 @@ function UserList() {
   return (
     <div>
       <header className="header">
-        <img src="logo.png" alt="Logo" className="logo" />
+        <img src="https://grad.hitbullseye.com/new-code/images/hitbullseye-logo.png" alt="Logo" className="logo" />
       </header>
 
       <div className="container">
@@ -43,7 +43,15 @@ function UserList() {
           </tbody>
         </table>
       </div>
+      <div className='container card'>
+        <div className='card-body'>
+          <h3 className='card-title'>Student Details</h3>
+          <p className='card-text'>Name : <b>Muhammad Sami Khanday</b></p>
+          <p className='card-text'>Reg. No : <b>12001474</b></p>
+          <p className='card-text'>Course : <b>Summer PEP 2023</b></p>
 
+        </div>
+      </div>
       <footer className="footer">
         <p>&copy; 2023 Final Assessment Test.. All rights reserved. Task for Hitbullseye</p>
       </footer>
