@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/final_assessment_test.github.io/static/css/main.72e8fb96.css",
+    "main.js": "/final_assessment_test.github.io/static/js/main.46fdba76.js",
+    "static/js/787.fd2f9158.chunk.js": "/final_assessment_test.github.io/static/js/787.fd2f9158.chunk.js",
+    "index.html": "/final_assessment_test.github.io/index.html",
+    "main.72e8fb96.css.map": "/final_assessment_test.github.io/static/css/main.72e8fb96.css.map",
+    "main.46fdba76.js.map": "/final_assessment_test.github.io/static/js/main.46fdba76.js.map",
+    "787.fd2f9158.chunk.js.map": "/final_assessment_test.github.io/static/js/787.fd2f9158.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72e8fb96.css",
+    "static/js/main.46fdba76.js"
+  ]
+}
